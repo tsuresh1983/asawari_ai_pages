@@ -15,7 +15,6 @@ const withNextra = nextra({
 export default withNextra({
   output: 'export',
   distDir: 'out',
-  assetPrefix: "/docs",
   images: {
     unoptimized: true
   } 
