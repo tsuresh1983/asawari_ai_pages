@@ -2,7 +2,8 @@
     "scripts": {
         "dev": "next dev",
         "build": "next build",
-        "start": "next start"
+        "start": "next start",
+        "gh": "gh-pages -d out"
     },
     "dependencies": {
         "next": "^15.0.4",
@@ -10,5 +11,9 @@
         "nextra-theme-docs": "^3.2.4",
         "react": "^19.0.0",
         "react-dom": "^19.0.0"
+    },
+    "type": "module",
+    "devDependencies": {
+        "gh-pages": "^6.2.0"
     }
 }

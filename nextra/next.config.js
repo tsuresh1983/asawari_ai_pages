@@ -4,7 +4,7 @@ import nextra from 'nextra'
  */
 const withNextra = nextra({
   theme: 'nextra-theme-docs',
-  themeConfig: './src/theme.config.jsx',
+  themeConfig: 'src/theme.config.jsx',
   latex: true,
   search: {
     codeblocks: false
@@ -13,11 +13,10 @@ const withNextra = nextra({
 })
 
 export default withNextra({
-  reactStrictMode: true,
-
   output: 'export',
-  distDir: 'dist',
+  distDir: 'out',
+  assetPrefix: "/docs",
   images: {
     unoptimized: true
-  }
+  } 
 })
