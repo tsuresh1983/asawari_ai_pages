@@ -9,13 +9,12 @@ const withNextra = nextra({
   search: {
     codeblocks: false
   }
-
 })
 
 export default withNextra({
   output: 'export',
-  distDir: 'out',
+  distDir: '../docs',
   images: {
     unoptimized: true
-  } 
+  }
 })

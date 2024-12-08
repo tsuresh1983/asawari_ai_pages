@@ -15,5 +15,11 @@ export default {
       <meta property="og:description" content="Documentation for asawari.ai" />
     </>
   ),
-  footer: false
+  footer: false,
+  editLink: {
+    component: null
+  },
+  feedback: {
+    content: null, // Removes the "Give us feedback" link
+  },
 }
